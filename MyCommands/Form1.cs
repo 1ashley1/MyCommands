@@ -24,7 +24,7 @@ namespace MyCommands
         Dictionary<string, System.Diagnostics.Process> procList;
         MyCommandsDAL mcd = new MyCommandsDAL();
         #endregion
-        int count = 0;
+        int count = 0; //test
         bool alreadyPopulatedcbVersion = false;
         List<int> versionNumbers = null;
         List<string> alreadyOpenedVersions = new List<string>();
