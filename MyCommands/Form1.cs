@@ -11,6 +11,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 using System.Drawing.Imaging;
 using System.Xml;
 using System.Management.Automation;
+using System.Reflection;
 
 namespace MyCommands
 {
@@ -24,7 +25,7 @@ namespace MyCommands
         Dictionary<string, System.Diagnostics.Process> procList;
         MyCommandsDAL mcd = new MyCommandsDAL();
         #endregion
-        int count = 0;//test
+        int count = 0;
         bool alreadyPopulatedcbVersion = false;
         List<int> versionNumbers = null;
         List<string> alreadyOpenedVersions = new List<string>();
@@ -40,36 +41,16 @@ namespace MyCommands
         public Form1()
         {
             InitializeComponent();
-            #region shortcutkeys
-            int zHotKey = (int)Keys.Z;
-            int kill_iis_hotkey = (int)Keys.I;
-            int mHotKey = (int)Keys.M;
-            int kHotKey = (int)Keys.K;
-            int lHotKey = (int)Keys.L;
-            int vHotKey = (int)Keys.V;
-            int xHotKey = (int)Keys.X;
-            int oHotKey = (int)Keys.O;
-            int cHotKey = (int)Keys.C;
-            int bHotKey = (int)Keys.B;
-            int gHotKey = (int)Keys.G;
-            int rHotKey = (int)Keys.R;
-            int qHotKey = (int)Keys.Q;
-            #endregion
-            #region registering_shortcuts
-            Boolean success = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, zHotKey);//Set hotkey as 'Alt + z'
-            Boolean kill_iis = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, kHotKey);//Set hotkey as 'Alt + k'
-            Boolean moveDllKey = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, mHotKey);//Set hotkey as 'Alt + m
-            Boolean move_iis = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, kill_iis_hotkey);//Set hotkey as 'Alt + i'
-            Boolean launchSolutions = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, lHotKey);//Set hotkey as 'Alt + l'
-            Boolean changeVersion = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, vHotKey);//Set hotkey as 'Alt + v'
-            Boolean killvs = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, xHotKey);//Set hotkey as 'Alt + x'
-            Boolean openLog = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, oHotKey);//Set hotkey as 'Alt + o'
-            Boolean clearLog = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, cHotKey);//Set hotkey as 'Alt + c'
-            Boolean launchBJE = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, bHotKey);//Set hotkey as 'Alt + b'
-            Boolean generateComment = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, gHotKey);//Set hotkey as 'Alt + g'
-            Boolean reviewersList = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, rHotKey);//Set hotkey as 'Alt + r'
-            Boolean branchName = Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, qHotKey);//Set hotkey as 'Alt + q'
-            #endregion
+            RegisterMyCommandHotKeys();
+        }
+
+        private void RegisterMyCommandHotKeys()
+        {
+            //register ALT + A - Z shortcut keys
+            for (int i = 65; i <= 90; i++)
+            {
+                Form1.RegisterHotKey(this.Handle, this.GetType().GetHashCode(), 0x0001, i);
+            }
         }
         [DllImport("user32.dll")]
         public static extern bool RegisterHotKey(IntPtr hWnd, int id, int fsModifiers, int vlc);
@@ -99,7 +80,7 @@ namespace MyCommands
                     if (id == 5898241)
                     {
                         //checkIfSolutionRunning();
-                        sendEmail();
+                        //sendEmail();
                     }
                     //Alt + i
                     if (id == 4784129)
@@ -159,11 +140,9 @@ namespace MyCommands
                     {
                         copyBranchName();
                     }
-                    //Console.WriteLine(id);
                 }
 
             }
-            //Console.WriteLine(m.Msg);
 
             base.WndProc(ref m);
         }
@@ -651,6 +630,14 @@ SET DRIVEPATH='{versionPath}'
                 }
             }
             return result;
+        }
+
+        private void CallMethodUsingReflection(string methodName, Object[] parameters)
+        {
+            //e.g how to call method -> CallMethodUsingReflection("TestMethod", new Object[] { "test", 123 });
+            Type thisType = this.GetType();
+            MethodInfo theMethod = thisType.GetMethod(methodName);
+            theMethod.Invoke(this, parameters);
         }
     }
 }

@@ -52,9 +52,10 @@
             this.btnBack.FlatAppearance.BorderSize = 0;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
-            this.btnBack.Location = new System.Drawing.Point(318, 23);
+            this.btnBack.Location = new System.Drawing.Point(477, 35);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(180, 66);
+            this.btnBack.Size = new System.Drawing.Size(270, 102);
             this.btnBack.TabIndex = 59;
             this.btnBack.Text = "BACK";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -67,9 +68,10 @@
             this.btnDelete.FlatAppearance.BorderSize = 0;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(393, 113);
+            this.btnDelete.Location = new System.Drawing.Point(590, 174);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(180, 66);
+            this.btnDelete.Size = new System.Drawing.Size(270, 102);
             this.btnDelete.TabIndex = 58;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -82,9 +84,10 @@
             this.btnUpdate.FlatAppearance.BorderSize = 0;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
-            this.btnUpdate.Location = new System.Drawing.Point(207, 113);
+            this.btnUpdate.Location = new System.Drawing.Point(310, 174);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(180, 66);
+            this.btnUpdate.Size = new System.Drawing.Size(270, 102);
             this.btnUpdate.TabIndex = 57;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -97,9 +100,10 @@
             this.btnAdd.FlatAppearance.BorderSize = 0;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(22, 113);
+            this.btnAdd.Location = new System.Drawing.Point(33, 174);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(180, 66);
+            this.btnAdd.Size = new System.Drawing.Size(270, 102);
             this.btnAdd.TabIndex = 56;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -107,9 +111,10 @@
             // 
             // txtShortcutName
             // 
-            this.txtShortcutName.Location = new System.Drawing.Point(99, 37);
+            this.txtShortcutName.Location = new System.Drawing.Point(148, 57);
+            this.txtShortcutName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtShortcutName.Name = "txtShortcutName";
-            this.txtShortcutName.Size = new System.Drawing.Size(189, 20);
+            this.txtShortcutName.Size = new System.Drawing.Size(282, 26);
             this.txtShortcutName.TabIndex = 54;
             // 
             // label18
@@ -117,27 +122,30 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label18.Location = new System.Drawing.Point(19, 37);
+            this.label18.Location = new System.Drawing.Point(28, 57);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(63, 20);
+            this.label18.Size = new System.Drawing.Size(94, 30);
             this.label18.TabIndex = 52;
             this.label18.Text = "Name:";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 196);
+            this.dataGridView1.Location = new System.Drawing.Point(42, 302);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(536, 197);
+            this.dataGridView1.Size = new System.Drawing.Size(804, 303);
             this.dataGridView1.TabIndex = 51;
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(99, 66);
+            this.txtCode.Location = new System.Drawing.Point(148, 102);
+            this.txtCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(189, 20);
+            this.txtCode.Size = new System.Drawing.Size(282, 26);
             this.txtCode.TabIndex = 61;
             // 
             // label2
@@ -145,18 +153,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(24, 67);
+            this.label2.Location = new System.Drawing.Point(36, 103);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(86, 30);
             this.label2.TabIndex = 60;
             this.label2.Text = "Code:";
             // 
             // txtCodeList
             // 
-            this.txtCodeList.Location = new System.Drawing.Point(579, 66);
+            this.txtCodeList.Location = new System.Drawing.Point(868, 102);
+            this.txtCodeList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCodeList.Multiline = true;
             this.txtCodeList.Name = "txtCodeList";
-            this.txtCodeList.Size = new System.Drawing.Size(306, 337);
+            this.txtCodeList.Size = new System.Drawing.Size(457, 516);
             this.txtCodeList.TabIndex = 62;
             // 
             // label1
@@ -164,17 +174,19 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label1.Location = new System.Drawing.Point(575, 28);
+            this.label1.Location = new System.Drawing.Point(862, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 20);
+            this.label1.Size = new System.Drawing.Size(463, 30);
             this.label1.TabIndex = 63;
             this.label1.Text = "PRESS SHORTCUT TO GET CODE";
             // 
             // txtShortcutId
             // 
-            this.txtShortcutId.Location = new System.Drawing.Point(99, 8);
+            this.txtShortcutId.Location = new System.Drawing.Point(148, 12);
+            this.txtShortcutId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtShortcutId.Name = "txtShortcutId";
-            this.txtShortcutId.Size = new System.Drawing.Size(189, 20);
+            this.txtShortcutId.Size = new System.Drawing.Size(282, 26);
             this.txtShortcutId.TabIndex = 65;
             // 
             // label3
@@ -182,18 +194,19 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label3.Location = new System.Drawing.Point(19, 8);
+            this.label3.Location = new System.Drawing.Point(28, 12);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 20);
+            this.label3.Size = new System.Drawing.Size(48, 30);
             this.label3.TabIndex = 64;
             this.label3.Text = "ID:";
             // 
             // frmAddShortcut
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MyCommands.Properties.Resources._154685_popular_coding_background_1920x1200_smartphone;
-            this.ClientSize = new System.Drawing.Size(920, 450);
+            this.ClientSize = new System.Drawing.Size(1380, 692);
             this.Controls.Add(this.txtShortcutId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -208,10 +221,10 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmAddShortcut";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Shortcuts";
-            this.Load += new System.EventHandler(this.frmAddShortcut_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

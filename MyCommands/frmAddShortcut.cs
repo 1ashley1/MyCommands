@@ -131,10 +131,5 @@ namespace MyCommands
             frmMain.Show();
             this.Hide();
         }
-
-        private void frmAddShortcut_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
