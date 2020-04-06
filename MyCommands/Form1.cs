@@ -33,7 +33,8 @@ namespace MyCommands
         //string xmlFilePath = "D:\\commands.xml";
         string xmlFilePath = @"https://mycworks.000webhostapp.com/commands.xml";
         string utilsFolderPath = @"C:\Dayforce\Utils";
-        frmAddShortcut frmShortcut;
+        frmAddShortcut frmShortcut = new frmAddShortcut();
+        frmAssignedShortcuts frmAssignShortcuts = new frmAssignedShortcuts();
 
         #region configurations
         string[] openSolutions = new string[] { "Main.sln", "Dsvc.sln" };
@@ -42,6 +43,7 @@ namespace MyCommands
         {
             InitializeComponent();
             RegisterMyCommandHotKeys();
+            StaticFormInstances.frmMainInstance = this;
         }
 
         private void RegisterMyCommandHotKeys()
@@ -63,11 +65,7 @@ namespace MyCommands
                 int id = m.LParam.ToInt32();
                 bool shouldExecute = true;
 
-                if (!IsFormOpen("frmAddShortcut"))
-                {
-                    frmShortcut = new frmAddShortcut();
-                }
-                else
+                if (IsFormOpen("frmAddShortcut"))
                 {
                     shouldExecute = false;
                     frmShortcut.showCodeOnScreen(id.ToString());
@@ -609,9 +607,6 @@ SET DRIVEPATH='{versionPath}'
 
         private void btnShortcuts_Click(object sender, EventArgs e)
         {
-            if (!IsFormOpen("frmAddShortcut")) {
-                frmShortcut = new frmAddShortcut();
-            }
             this.Hide();
             frmShortcut.Show();
         }
@@ -638,6 +633,12 @@ SET DRIVEPATH='{versionPath}'
             Type thisType = this.GetType();
             MethodInfo theMethod = thisType.GetMethod(methodName);
             theMethod.Invoke(this, parameters);
+        }
+
+        private void btnAssignActions_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmAssignShortcuts.Show();
         }
     }
 }

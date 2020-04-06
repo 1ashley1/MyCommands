@@ -9,7 +9,6 @@ IF NOT EXISTS
         CREATE TABLE tblShortcuts
         (ShortcutId   INT NOT NULL IDENTITY(1, 1) PRIMARY KEY, 
          ShortName    VARCHAR(MAX), 
-         LongName     VARCHAR(MAX), 
          ShortcutCode INT
         );
 END;

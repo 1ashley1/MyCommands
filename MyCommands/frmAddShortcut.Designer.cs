@@ -111,7 +111,7 @@
             // 
             // txtShortcutName
             // 
-            this.txtShortcutName.Location = new System.Drawing.Point(148, 57);
+            this.txtShortcutName.Location = new System.Drawing.Point(148, 24);
             this.txtShortcutName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtShortcutName.Name = "txtShortcutName";
             this.txtShortcutName.Size = new System.Drawing.Size(282, 26);
@@ -122,7 +122,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label18.Location = new System.Drawing.Point(28, 57);
+            this.label18.Location = new System.Drawing.Point(28, 24);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(94, 30);
@@ -142,7 +142,7 @@
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(148, 102);
+            this.txtCode.Location = new System.Drawing.Point(148, 69);
             this.txtCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(282, 26);
@@ -153,12 +153,12 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(36, 103);
+            this.label2.Location = new System.Drawing.Point(28, 70);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 30);
+            this.label2.Size = new System.Drawing.Size(94, 30);
             this.label2.TabIndex = 60;
-            this.label2.Text = "Code:";
+            this.label2.Text = "Code: ";
             // 
             // txtCodeList
             // 
@@ -183,23 +183,25 @@
             // 
             // txtShortcutId
             // 
-            this.txtShortcutId.Location = new System.Drawing.Point(148, 12);
+            this.txtShortcutId.Location = new System.Drawing.Point(282, 399);
             this.txtShortcutId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtShortcutId.Name = "txtShortcutId";
             this.txtShortcutId.Size = new System.Drawing.Size(282, 26);
             this.txtShortcutId.TabIndex = 65;
+            this.txtShortcutId.Visible = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label3.Location = new System.Drawing.Point(28, 12);
+            this.label3.Location = new System.Drawing.Point(106, 384);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 30);
             this.label3.TabIndex = 64;
             this.label3.Text = "ID:";
+            this.label3.Visible = false;
             // 
             // frmAddShortcut
             // 
@@ -207,8 +209,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MyCommands.Properties.Resources._154685_popular_coding_background_1920x1200_smartphone;
             this.ClientSize = new System.Drawing.Size(1380, 692);
-            this.Controls.Add(this.txtShortcutId);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCodeList);
             this.Controls.Add(this.txtCode);
@@ -220,6 +220,8 @@
             this.Controls.Add(this.txtShortcutName);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtShortcutId);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmAddShortcut";

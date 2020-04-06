@@ -77,6 +77,7 @@
             this.btnTest = new System.Windows.Forms.Button();
             this.btnScreenshot = new System.Windows.Forms.Button();
             this.btnShortcuts = new System.Windows.Forms.Button();
+            this.btnAssignActions = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLauchSolutions
@@ -86,9 +87,10 @@
             this.btnLauchSolutions.FlatAppearance.BorderSize = 0;
             this.btnLauchSolutions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLauchSolutions.Image = ((System.Drawing.Image)(resources.GetObject("btnLauchSolutions.Image")));
-            this.btnLauchSolutions.Location = new System.Drawing.Point(5, 450);
+            this.btnLauchSolutions.Location = new System.Drawing.Point(8, 692);
+            this.btnLauchSolutions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLauchSolutions.Name = "btnLauchSolutions";
-            this.btnLauchSolutions.Size = new System.Drawing.Size(180, 66);
+            this.btnLauchSolutions.Size = new System.Drawing.Size(270, 102);
             this.btnLauchSolutions.TabIndex = 0;
             this.btnLauchSolutions.Text = "Launch Solutions - Sharptop";
             this.btnLauchSolutions.UseVisualStyleBackColor = false;
@@ -101,9 +103,10 @@
             this.btnLaunch853.FlatAppearance.BorderSize = 0;
             this.btnLaunch853.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLaunch853.Image = ((System.Drawing.Image)(resources.GetObject("btnLaunch853.Image")));
-            this.btnLaunch853.Location = new System.Drawing.Point(193, 451);
+            this.btnLaunch853.Location = new System.Drawing.Point(290, 694);
+            this.btnLaunch853.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLaunch853.Name = "btnLaunch853";
-            this.btnLaunch853.Size = new System.Drawing.Size(180, 66);
+            this.btnLaunch853.Size = new System.Drawing.Size(270, 102);
             this.btnLaunch853.TabIndex = 1;
             this.btnLaunch853.Text = "Launch Solutions - 853";
             this.btnLaunch853.UseVisualStyleBackColor = false;
@@ -115,9 +118,10 @@
             this.btnIISSharptop.FlatAppearance.BorderSize = 0;
             this.btnIISSharptop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIISSharptop.Image = ((System.Drawing.Image)(resources.GetObject("btnIISSharptop.Image")));
-            this.btnIISSharptop.Location = new System.Drawing.Point(5, 512);
+            this.btnIISSharptop.Location = new System.Drawing.Point(8, 788);
+            this.btnIISSharptop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIISSharptop.Name = "btnIISSharptop";
-            this.btnIISSharptop.Size = new System.Drawing.Size(180, 66);
+            this.btnIISSharptop.Size = new System.Drawing.Size(270, 102);
             this.btnIISSharptop.TabIndex = 2;
             this.btnIISSharptop.Text = "IIS Sharptop";
             this.btnIISSharptop.UseVisualStyleBackColor = false;
@@ -129,9 +133,10 @@
             this.btnIIS853.FlatAppearance.BorderSize = 0;
             this.btnIIS853.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIIS853.Image = ((System.Drawing.Image)(resources.GetObject("btnIIS853.Image")));
-            this.btnIIS853.Location = new System.Drawing.Point(193, 514);
+            this.btnIIS853.Location = new System.Drawing.Point(290, 791);
+            this.btnIIS853.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIIS853.Name = "btnIIS853";
-            this.btnIIS853.Size = new System.Drawing.Size(180, 66);
+            this.btnIIS853.Size = new System.Drawing.Size(270, 102);
             this.btnIIS853.TabIndex = 3;
             this.btnIIS853.Text = "IIS 853";
             this.btnIIS853.UseVisualStyleBackColor = false;
@@ -143,9 +148,10 @@
             this.btnClearLog.FlatAppearance.BorderSize = 0;
             this.btnClearLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearLog.Image = ((System.Drawing.Image)(resources.GetObject("btnClearLog.Image")));
-            this.btnClearLog.Location = new System.Drawing.Point(197, 183);
+            this.btnClearLog.Location = new System.Drawing.Point(296, 282);
+            this.btnClearLog.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClearLog.Name = "btnClearLog";
-            this.btnClearLog.Size = new System.Drawing.Size(180, 66);
+            this.btnClearLog.Size = new System.Drawing.Size(270, 102);
             this.btnClearLog.TabIndex = 4;
             this.btnClearLog.Text = "Clear Log";
             this.btnClearLog.UseVisualStyleBackColor = false;
@@ -158,9 +164,10 @@
             this.btnUpgradeSharptop.FlatAppearance.BorderSize = 0;
             this.btnUpgradeSharptop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpgradeSharptop.Image = ((System.Drawing.Image)(resources.GetObject("btnUpgradeSharptop.Image")));
-            this.btnUpgradeSharptop.Location = new System.Drawing.Point(5, 582);
+            this.btnUpgradeSharptop.Location = new System.Drawing.Point(8, 895);
+            this.btnUpgradeSharptop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpgradeSharptop.Name = "btnUpgradeSharptop";
-            this.btnUpgradeSharptop.Size = new System.Drawing.Size(180, 66);
+            this.btnUpgradeSharptop.Size = new System.Drawing.Size(270, 102);
             this.btnUpgradeSharptop.TabIndex = 5;
             this.btnUpgradeSharptop.Text = "Upgrade Sharptop";
             this.btnUpgradeSharptop.UseVisualStyleBackColor = false;
@@ -172,9 +179,10 @@
             this.btnUpgrade853.FlatAppearance.BorderSize = 0;
             this.btnUpgrade853.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpgrade853.Image = ((System.Drawing.Image)(resources.GetObject("btnUpgrade853.Image")));
-            this.btnUpgrade853.Location = new System.Drawing.Point(193, 577);
+            this.btnUpgrade853.Location = new System.Drawing.Point(290, 888);
+            this.btnUpgrade853.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpgrade853.Name = "btnUpgrade853";
-            this.btnUpgrade853.Size = new System.Drawing.Size(180, 66);
+            this.btnUpgrade853.Size = new System.Drawing.Size(270, 102);
             this.btnUpgrade853.TabIndex = 6;
             this.btnUpgrade853.Text = "Upgrade 853";
             this.btnUpgrade853.UseVisualStyleBackColor = false;
@@ -186,9 +194,10 @@
             this.btnMoveDLLSharptop.FlatAppearance.BorderSize = 0;
             this.btnMoveDLLSharptop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMoveDLLSharptop.Image = ((System.Drawing.Image)(resources.GetObject("btnMoveDLLSharptop.Image")));
-            this.btnMoveDLLSharptop.Location = new System.Drawing.Point(5, 654);
+            this.btnMoveDLLSharptop.Location = new System.Drawing.Point(8, 1006);
+            this.btnMoveDLLSharptop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMoveDLLSharptop.Name = "btnMoveDLLSharptop";
-            this.btnMoveDLLSharptop.Size = new System.Drawing.Size(180, 66);
+            this.btnMoveDLLSharptop.Size = new System.Drawing.Size(270, 102);
             this.btnMoveDLLSharptop.TabIndex = 7;
             this.btnMoveDLLSharptop.Text = "Move DLL - TIP";
             this.btnMoveDLLSharptop.UseVisualStyleBackColor = false;
@@ -201,9 +210,10 @@
             this.btnMoveDLL853.FlatAppearance.BorderSize = 0;
             this.btnMoveDLL853.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMoveDLL853.Image = global::MyCommands.Properties.Resources.buttons_PNG33_1_174x53;
-            this.btnMoveDLL853.Location = new System.Drawing.Point(193, 647);
+            this.btnMoveDLL853.Location = new System.Drawing.Point(290, 995);
+            this.btnMoveDLL853.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMoveDLL853.Name = "btnMoveDLL853";
-            this.btnMoveDLL853.Size = new System.Drawing.Size(180, 66);
+            this.btnMoveDLL853.Size = new System.Drawing.Size(270, 102);
             this.btnMoveDLL853.TabIndex = 8;
             this.btnMoveDLL853.Text = "Move 853 DLL";
             this.btnMoveDLL853.UseVisualStyleBackColor = false;
@@ -215,9 +225,10 @@
             this.btnOpenLog.FlatAppearance.BorderSize = 0;
             this.btnOpenLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpenLog.Image = global::MyCommands.Properties.Resources.buttons_PNG33_1_174x53;
-            this.btnOpenLog.Location = new System.Drawing.Point(5, 183);
+            this.btnOpenLog.Location = new System.Drawing.Point(8, 282);
+            this.btnOpenLog.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOpenLog.Name = "btnOpenLog";
-            this.btnOpenLog.Size = new System.Drawing.Size(180, 66);
+            this.btnOpenLog.Size = new System.Drawing.Size(270, 102);
             this.btnOpenLog.TabIndex = 9;
             this.btnOpenLog.Text = "Open Log";
             this.btnOpenLog.UseVisualStyleBackColor = false;
@@ -230,9 +241,10 @@
             this.btnCloseVS.FlatAppearance.BorderSize = 0;
             this.btnCloseVS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCloseVS.Image = ((System.Drawing.Image)(resources.GetObject("btnCloseVS.Image")));
-            this.btnCloseVS.Location = new System.Drawing.Point(5, 111);
+            this.btnCloseVS.Location = new System.Drawing.Point(8, 171);
+            this.btnCloseVS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCloseVS.Name = "btnCloseVS";
-            this.btnCloseVS.Size = new System.Drawing.Size(180, 66);
+            this.btnCloseVS.Size = new System.Drawing.Size(270, 102);
             this.btnCloseVS.TabIndex = 10;
             this.btnCloseVS.Text = "Close VS";
             this.btnCloseVS.UseVisualStyleBackColor = false;
@@ -245,9 +257,10 @@
             this.btnLaunchBJE.FlatAppearance.BorderSize = 0;
             this.btnLaunchBJE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLaunchBJE.Image = ((System.Drawing.Image)(resources.GetObject("btnLaunchBJE.Image")));
-            this.btnLaunchBJE.Location = new System.Drawing.Point(393, 183);
+            this.btnLaunchBJE.Location = new System.Drawing.Point(590, 282);
+            this.btnLaunchBJE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLaunchBJE.Name = "btnLaunchBJE";
-            this.btnLaunchBJE.Size = new System.Drawing.Size(180, 66);
+            this.btnLaunchBJE.Size = new System.Drawing.Size(270, 102);
             this.btnLaunchBJE.TabIndex = 11;
             this.btnLaunchBJE.Text = "BJE";
             this.btnLaunchBJE.UseVisualStyleBackColor = false;
@@ -260,9 +273,10 @@
             this.btnGetLatest.FlatAppearance.BorderSize = 0;
             this.btnGetLatest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGetLatest.Image = ((System.Drawing.Image)(resources.GetObject("btnGetLatest.Image")));
-            this.btnGetLatest.Location = new System.Drawing.Point(603, 447);
+            this.btnGetLatest.Location = new System.Drawing.Point(904, 688);
+            this.btnGetLatest.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnGetLatest.Name = "btnGetLatest";
-            this.btnGetLatest.Size = new System.Drawing.Size(180, 66);
+            this.btnGetLatest.Size = new System.Drawing.Size(270, 102);
             this.btnGetLatest.TabIndex = 12;
             this.btnGetLatest.Text = "Get Latest";
             this.btnGetLatest.UseVisualStyleBackColor = false;
@@ -275,9 +289,10 @@
             this.btnKill_IISExp.FlatAppearance.BorderSize = 0;
             this.btnKill_IISExp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKill_IISExp.Image = ((System.Drawing.Image)(resources.GetObject("btnKill_IISExp.Image")));
-            this.btnKill_IISExp.Location = new System.Drawing.Point(602, 111);
+            this.btnKill_IISExp.Location = new System.Drawing.Point(903, 171);
+            this.btnKill_IISExp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnKill_IISExp.Name = "btnKill_IISExp";
-            this.btnKill_IISExp.Size = new System.Drawing.Size(180, 66);
+            this.btnKill_IISExp.Size = new System.Drawing.Size(270, 102);
             this.btnKill_IISExp.TabIndex = 14;
             this.btnKill_IISExp.Text = "Kill IIS Exp";
             this.btnKill_IISExp.UseVisualStyleBackColor = false;
@@ -291,9 +306,10 @@
             this.btnEnable.FlatAppearance.BorderSize = 0;
             this.btnEnable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnable.Image = ((System.Drawing.Image)(resources.GetObject("btnEnable.Image")));
-            this.btnEnable.Location = new System.Drawing.Point(404, 715);
+            this.btnEnable.Location = new System.Drawing.Point(606, 1100);
+            this.btnEnable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEnable.Name = "btnEnable";
-            this.btnEnable.Size = new System.Drawing.Size(180, 66);
+            this.btnEnable.Size = new System.Drawing.Size(270, 102);
             this.btnEnable.TabIndex = 15;
             this.btnEnable.Text = "Enable Speech";
             this.btnEnable.UseVisualStyleBackColor = false;
@@ -307,18 +323,20 @@
             this.btnDisable.FlatAppearance.BorderSize = 0;
             this.btnDisable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDisable.Image = ((System.Drawing.Image)(resources.GetObject("btnDisable.Image")));
-            this.btnDisable.Location = new System.Drawing.Point(404, 776);
+            this.btnDisable.Location = new System.Drawing.Point(606, 1194);
+            this.btnDisable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDisable.Name = "btnDisable";
-            this.btnDisable.Size = new System.Drawing.Size(180, 66);
+            this.btnDisable.Size = new System.Drawing.Size(270, 102);
             this.btnDisable.TabIndex = 16;
             this.btnDisable.Text = "Disable Speech";
             this.btnDisable.UseVisualStyleBackColor = false;
             // 
             // txtLog
             // 
-            this.txtLog.Location = new System.Drawing.Point(617, 535);
+            this.txtLog.Location = new System.Drawing.Point(926, 823);
+            this.txtLog.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLog.Name = "txtLog";
-            this.txtLog.Size = new System.Drawing.Size(335, 102);
+            this.txtLog.Size = new System.Drawing.Size(500, 155);
             this.txtLog.TabIndex = 17;
             this.txtLog.Text = "-Log";
             // 
@@ -326,9 +344,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(-1, 475);
+            this.label1.Location = new System.Drawing.Point(-2, 731);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.Size = new System.Drawing.Size(18, 20);
             this.label1.TabIndex = 18;
             this.label1.Text = "1";
             this.label1.Visible = false;
@@ -337,9 +356,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Orange;
-            this.label2.Location = new System.Drawing.Point(-1, 539);
+            this.label2.Location = new System.Drawing.Point(-2, 829);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 13);
+            this.label2.Size = new System.Drawing.Size(18, 20);
             this.label2.TabIndex = 19;
             this.label2.Text = "2";
             this.label2.Visible = false;
@@ -348,9 +368,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Orange;
-            this.label3.Location = new System.Drawing.Point(-1, 604);
+            this.label3.Location = new System.Drawing.Point(-2, 929);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.Size = new System.Drawing.Size(18, 20);
             this.label3.TabIndex = 20;
             this.label3.Text = "3";
             this.label3.Visible = false;
@@ -359,9 +380,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Orange;
-            this.label4.Location = new System.Drawing.Point(-1, 674);
+            this.label4.Location = new System.Drawing.Point(-2, 1037);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.Size = new System.Drawing.Size(18, 20);
             this.label4.TabIndex = 21;
             this.label4.Text = "4";
             this.label4.Visible = false;
@@ -370,9 +392,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Orange;
-            this.label5.Location = new System.Drawing.Point(-1, 741);
+            this.label5.Location = new System.Drawing.Point(-2, 1140);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(13, 13);
+            this.label5.Size = new System.Drawing.Size(18, 20);
             this.label5.TabIndex = 22;
             this.label5.Text = "5";
             this.label5.Visible = false;
@@ -381,9 +404,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Orange;
-            this.label6.Location = new System.Drawing.Point(-1, 803);
+            this.label6.Location = new System.Drawing.Point(-2, 1235);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(13, 13);
+            this.label6.Size = new System.Drawing.Size(18, 20);
             this.label6.TabIndex = 23;
             this.label6.Text = "6";
             this.label6.Visible = false;
@@ -392,9 +416,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Orange;
-            this.label7.Location = new System.Drawing.Point(190, 802);
+            this.label7.Location = new System.Drawing.Point(285, 1234);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(19, 13);
+            this.label7.Size = new System.Drawing.Size(27, 20);
             this.label7.TabIndex = 29;
             this.label7.Text = "12";
             this.label7.Visible = false;
@@ -403,9 +428,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Orange;
-            this.label8.Location = new System.Drawing.Point(190, 740);
+            this.label8.Location = new System.Drawing.Point(285, 1138);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 13);
+            this.label8.Size = new System.Drawing.Size(27, 20);
             this.label8.TabIndex = 28;
             this.label8.Text = "11";
             this.label8.Visible = false;
@@ -414,9 +440,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Orange;
-            this.label9.Location = new System.Drawing.Point(190, 673);
+            this.label9.Location = new System.Drawing.Point(285, 1035);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 13);
+            this.label9.Size = new System.Drawing.Size(27, 20);
             this.label9.TabIndex = 27;
             this.label9.Text = "10";
             this.label9.Visible = false;
@@ -425,9 +452,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Orange;
-            this.label10.Location = new System.Drawing.Point(190, 603);
+            this.label10.Location = new System.Drawing.Point(285, 928);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(13, 13);
+            this.label10.Size = new System.Drawing.Size(18, 20);
             this.label10.TabIndex = 26;
             this.label10.Text = "9";
             this.label10.Visible = false;
@@ -436,9 +464,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Orange;
-            this.label11.Location = new System.Drawing.Point(190, 538);
+            this.label11.Location = new System.Drawing.Point(285, 828);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(13, 13);
+            this.label11.Size = new System.Drawing.Size(18, 20);
             this.label11.TabIndex = 25;
             this.label11.Text = "8";
             this.label11.Visible = false;
@@ -447,9 +476,10 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Orange;
-            this.label12.Location = new System.Drawing.Point(190, 474);
+            this.label12.Location = new System.Drawing.Point(285, 729);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(13, 13);
+            this.label12.Size = new System.Drawing.Size(18, 20);
             this.label12.TabIndex = 24;
             this.label12.Text = "7";
             this.label12.Visible = false;
@@ -458,9 +488,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Orange;
-            this.label13.Location = new System.Drawing.Point(600, 474);
+            this.label13.Location = new System.Drawing.Point(900, 729);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(19, 13);
+            this.label13.Size = new System.Drawing.Size(27, 20);
             this.label13.TabIndex = 30;
             this.label13.Text = "13";
             this.label13.Visible = false;
@@ -469,9 +500,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Orange;
-            this.label14.Location = new System.Drawing.Point(401, 604);
+            this.label14.Location = new System.Drawing.Point(602, 929);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(19, 13);
+            this.label14.Size = new System.Drawing.Size(27, 20);
             this.label14.TabIndex = 31;
             this.label14.Text = "14";
             this.label14.Visible = false;
@@ -480,9 +512,10 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Orange;
-            this.label15.Location = new System.Drawing.Point(401, 673);
+            this.label15.Location = new System.Drawing.Point(602, 1035);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(19, 13);
+            this.label15.Size = new System.Drawing.Size(27, 20);
             this.label15.TabIndex = 32;
             this.label15.Text = "15";
             this.label15.Visible = false;
@@ -491,9 +524,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Orange;
-            this.label16.Location = new System.Drawing.Point(401, 740);
+            this.label16.Location = new System.Drawing.Point(602, 1138);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(19, 13);
+            this.label16.Size = new System.Drawing.Size(27, 20);
             this.label16.TabIndex = 33;
             this.label16.Text = "16";
             this.label16.Visible = false;
@@ -502,9 +536,10 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Orange;
-            this.label17.Location = new System.Drawing.Point(401, 802);
+            this.label17.Location = new System.Drawing.Point(602, 1234);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(19, 13);
+            this.label17.Size = new System.Drawing.Size(27, 20);
             this.label17.TabIndex = 34;
             this.label17.Text = "17";
             this.label17.Visible = false;
@@ -516,9 +551,10 @@
             this.btnLauch854.FlatAppearance.BorderSize = 0;
             this.btnLauch854.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLauch854.Image = ((System.Drawing.Image)(resources.GetObject("btnLauch854.Image")));
-            this.btnLauch854.Location = new System.Drawing.Point(404, 450);
+            this.btnLauch854.Location = new System.Drawing.Point(606, 692);
+            this.btnLauch854.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLauch854.Name = "btnLauch854";
-            this.btnLauch854.Size = new System.Drawing.Size(180, 66);
+            this.btnLauch854.Size = new System.Drawing.Size(270, 102);
             this.btnLauch854.TabIndex = 35;
             this.btnLauch854.Text = "Launch Solutions - 854";
             this.btnLauch854.UseVisualStyleBackColor = false;
@@ -530,9 +566,10 @@
             this.btnIIS854.FlatAppearance.BorderSize = 0;
             this.btnIIS854.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIIS854.Image = ((System.Drawing.Image)(resources.GetObject("btnIIS854.Image")));
-            this.btnIIS854.Location = new System.Drawing.Point(404, 512);
+            this.btnIIS854.Location = new System.Drawing.Point(606, 788);
+            this.btnIIS854.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIIS854.Name = "btnIIS854";
-            this.btnIIS854.Size = new System.Drawing.Size(180, 66);
+            this.btnIIS854.Size = new System.Drawing.Size(270, 102);
             this.btnIIS854.TabIndex = 36;
             this.btnIIS854.Text = "IIS 854";
             this.btnIIS854.UseVisualStyleBackColor = false;
@@ -549,9 +586,10 @@
             // cbVersion
             // 
             this.cbVersion.FormattingEnabled = true;
-            this.cbVersion.Location = new System.Drawing.Point(167, 12);
+            this.cbVersion.Location = new System.Drawing.Point(250, 18);
+            this.cbVersion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbVersion.Name = "cbVersion";
-            this.cbVersion.Size = new System.Drawing.Size(121, 21);
+            this.cbVersion.Size = new System.Drawing.Size(180, 28);
             this.cbVersion.TabIndex = 37;
             // 
             // btncbLaunch
@@ -561,9 +599,10 @@
             this.btncbLaunch.FlatAppearance.BorderSize = 0;
             this.btncbLaunch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncbLaunch.Image = ((System.Drawing.Image)(resources.GetObject("btncbLaunch.Image")));
-            this.btncbLaunch.Location = new System.Drawing.Point(5, 39);
+            this.btncbLaunch.Location = new System.Drawing.Point(8, 60);
+            this.btncbLaunch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncbLaunch.Name = "btncbLaunch";
-            this.btncbLaunch.Size = new System.Drawing.Size(180, 66);
+            this.btncbLaunch.Size = new System.Drawing.Size(270, 102);
             this.btncbLaunch.TabIndex = 38;
             this.btncbLaunch.Text = "Launch Solutions";
             this.btncbLaunch.UseVisualStyleBackColor = false;
@@ -576,9 +615,10 @@
             this.btncbIIS.FlatAppearance.BorderSize = 0;
             this.btncbIIS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncbIIS.Image = ((System.Drawing.Image)(resources.GetObject("btncbIIS.Image")));
-            this.btncbIIS.Location = new System.Drawing.Point(393, 111);
+            this.btncbIIS.Location = new System.Drawing.Point(590, 171);
+            this.btncbIIS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncbIIS.Name = "btncbIIS";
-            this.btncbIIS.Size = new System.Drawing.Size(180, 66);
+            this.btncbIIS.Size = new System.Drawing.Size(270, 102);
             this.btncbIIS.TabIndex = 39;
             this.btncbIIS.Text = "IIS";
             this.btncbIIS.UseVisualStyleBackColor = false;
@@ -591,9 +631,10 @@
             this.btncbGetLatest.FlatAppearance.BorderSize = 0;
             this.btncbGetLatest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncbGetLatest.Image = ((System.Drawing.Image)(resources.GetObject("btncbGetLatest.Image")));
-            this.btncbGetLatest.Location = new System.Drawing.Point(197, 39);
+            this.btncbGetLatest.Location = new System.Drawing.Point(1209, 251);
+            this.btncbGetLatest.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncbGetLatest.Name = "btncbGetLatest";
-            this.btncbGetLatest.Size = new System.Drawing.Size(180, 66);
+            this.btncbGetLatest.Size = new System.Drawing.Size(270, 102);
             this.btncbGetLatest.TabIndex = 40;
             this.btncbGetLatest.Text = "Get Latest -";
             this.btncbGetLatest.UseVisualStyleBackColor = false;
@@ -603,9 +644,10 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label18.Location = new System.Drawing.Point(12, 12);
+            this.label18.Location = new System.Drawing.Point(18, 18);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(142, 20);
+            this.label18.Size = new System.Drawing.Size(209, 30);
             this.label18.TabIndex = 41;
             this.label18.Text = "Choose Version";
             // 
@@ -616,9 +658,10 @@
             this.btncbMoveDLL.FlatAppearance.BorderSize = 0;
             this.btncbMoveDLL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncbMoveDLL.Image = ((System.Drawing.Image)(resources.GetObject("btncbMoveDLL.Image")));
-            this.btncbMoveDLL.Location = new System.Drawing.Point(197, 111);
+            this.btncbMoveDLL.Location = new System.Drawing.Point(296, 171);
+            this.btncbMoveDLL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btncbMoveDLL.Name = "btncbMoveDLL";
-            this.btncbMoveDLL.Size = new System.Drawing.Size(180, 66);
+            this.btncbMoveDLL.Size = new System.Drawing.Size(270, 102);
             this.btncbMoveDLL.TabIndex = 42;
             this.btncbMoveDLL.Text = "Move DLL";
             this.btncbMoveDLL.UseVisualStyleBackColor = false;
@@ -630,9 +673,10 @@
             this.btnConfig.FlatAppearance.BorderSize = 0;
             this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfig.Image = ((System.Drawing.Image)(resources.GetObject("btnConfig.Image")));
-            this.btnConfig.Location = new System.Drawing.Point(393, 39);
+            this.btnConfig.Location = new System.Drawing.Point(590, 60);
+            this.btnConfig.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConfig.Name = "btnConfig";
-            this.btnConfig.Size = new System.Drawing.Size(180, 66);
+            this.btnConfig.Size = new System.Drawing.Size(270, 102);
             this.btnConfig.TabIndex = 43;
             this.btnConfig.Text = "Config";
             this.btnConfig.UseVisualStyleBackColor = false;
@@ -646,9 +690,10 @@
             this.btnTest.FlatAppearance.BorderSize = 0;
             this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTest.Image = ((System.Drawing.Image)(resources.GetObject("btnTest.Image")));
-            this.btnTest.Location = new System.Drawing.Point(602, 177);
+            this.btnTest.Location = new System.Drawing.Point(903, 272);
+            this.btnTest.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(180, 66);
+            this.btnTest.Size = new System.Drawing.Size(270, 102);
             this.btnTest.TabIndex = 44;
             this.btnTest.Text = "Test";
             this.btnTest.UseVisualStyleBackColor = false;
@@ -660,9 +705,10 @@
             this.btnScreenshot.FlatAppearance.BorderSize = 0;
             this.btnScreenshot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScreenshot.Image = ((System.Drawing.Image)(resources.GetObject("btnScreenshot.Image")));
-            this.btnScreenshot.Location = new System.Drawing.Point(806, 111);
+            this.btnScreenshot.Location = new System.Drawing.Point(1209, 171);
+            this.btnScreenshot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnScreenshot.Name = "btnScreenshot";
-            this.btnScreenshot.Size = new System.Drawing.Size(180, 66);
+            this.btnScreenshot.Size = new System.Drawing.Size(270, 102);
             this.btnScreenshot.TabIndex = 45;
             this.btnScreenshot.Text = "Take Screenshot";
             this.btnScreenshot.UseVisualStyleBackColor = false;
@@ -675,21 +721,39 @@
             this.btnShortcuts.FlatAppearance.BorderSize = 0;
             this.btnShortcuts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShortcuts.Image = ((System.Drawing.Image)(resources.GetObject("btnShortcuts.Image")));
-            this.btnShortcuts.Location = new System.Drawing.Point(602, 39);
+            this.btnShortcuts.Location = new System.Drawing.Point(903, 60);
+            this.btnShortcuts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnShortcuts.Name = "btnShortcuts";
-            this.btnShortcuts.Size = new System.Drawing.Size(180, 66);
+            this.btnShortcuts.Size = new System.Drawing.Size(270, 102);
             this.btnShortcuts.TabIndex = 46;
             this.btnShortcuts.Text = "Shortcuts";
             this.btnShortcuts.UseVisualStyleBackColor = false;
             this.btnShortcuts.Click += new System.EventHandler(this.btnShortcuts_Click);
             // 
+            // btnAssignActions
+            // 
+            this.btnAssignActions.BackColor = System.Drawing.Color.Transparent;
+            this.btnAssignActions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAssignActions.FlatAppearance.BorderSize = 0;
+            this.btnAssignActions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssignActions.Image = ((System.Drawing.Image)(resources.GetObject("btnAssignActions.Image")));
+            this.btnAssignActions.Location = new System.Drawing.Point(301, 60);
+            this.btnAssignActions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAssignActions.Name = "btnAssignActions";
+            this.btnAssignActions.Size = new System.Drawing.Size(270, 102);
+            this.btnAssignActions.TabIndex = 47;
+            this.btnAssignActions.Text = "Assign Actions";
+            this.btnAssignActions.UseVisualStyleBackColor = false;
+            this.btnAssignActions.Click += new System.EventHandler(this.btnAssignActions_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(998, 264);
+            this.ClientSize = new System.Drawing.Size(1497, 406);
+            this.Controls.Add(this.btnAssignActions);
             this.Controls.Add(this.btnShortcuts);
             this.Controls.Add(this.btnScreenshot);
             this.Controls.Add(this.btnTest);
@@ -737,6 +801,7 @@
             this.Controls.Add(this.btnLaunch853);
             this.Controls.Add(this.btnLauchSolutions);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Commands";
@@ -796,6 +861,7 @@
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Button btnScreenshot;
         private System.Windows.Forms.Button btnShortcuts;
+        private System.Windows.Forms.Button btnAssignActions;
     }
 }
 

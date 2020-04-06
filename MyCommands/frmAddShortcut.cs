@@ -127,7 +127,7 @@ namespace MyCommands
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            Form1 frmMain = new Form1();
+            Form1 frmMain = (Form1)StaticFormInstances.frmMainInstance;
             frmMain.Show();
             this.Hide();
         }
